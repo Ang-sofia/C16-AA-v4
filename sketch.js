@@ -51,14 +51,14 @@ function setup() {
   obstaclesGroup = createGroup();
   cloudsGroup = createGroup();
   
-  console.log("Hello" + 5);
+  console.log("Hola" + 5);
   
   score = 0;
 }
 
 function draw() {
   background(180);
-  text("Score: "+ score, 500,50);
+  text("Puntuación: "+ score, 500,50);
   
   
   
